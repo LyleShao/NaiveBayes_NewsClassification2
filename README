@@ -1,0 +1,32 @@
+This program is a naive-bayesian classifier. This is built up for determine the class of the news.
+
+The articles for training is located at '/data_train', there are 20 different
+folder to indicate the class, it can be added with new training materials freely.
+
+The folder '/data_test' also has 20 sub folder in it, and this is the folder to put news
+that need to be determine, this method is very helpful when calculating the accuracy rate of
+large amount of news, if there is a class-unknown news need to be predict, we can use the
+function 'classifier' in 'Object_prob', just input the direction of the article, it will return a
+class name that is mostly possible.
+
+
+alt.atheism - finished! The accuracy is 402/500  rate: 80.40
+comp.graphics - finished! The accuracy is 346/501  rate: 69.06
+comp.os.ms-windows.misc - finished! The accuracy is 140/500  rate: 28.00
+comp.sys.ibm.pc.hardware - finished! The accuracy is 420/500  rate: 84.00
+comp.sys.mac.hardware - finished! The accuracy is 446/500  rate: 89.20
+comp.windows.x - finished! The accuracy is 428/500  rate: 85.60
+misc.forsale - finished! The accuracy is 359/500  rate: 71.80
+rec.autos - finished! The accuracy is 457/500  rate: 91.40
+rec.motorcycles - finished! The accuracy is 465/500  rate: 93.00
+rec.sport.baseball - finished! The accuracy is 471/500  rate: 94.20
+rec.sport.hockey - finished! The accuracy is 486/500  rate: 97.20
+sci.crypt - finished! The accuracy is 483/500  rate: 96.60
+sci.electronics - finished! The accuracy is 355/500  rate: 71.00
+sci.med - finished! The accuracy is 348/500  rate: 69.60
+sci.space - finished! The accuracy is 443/500  rate: 88.60
+soc.religion.christian - finished! The accuracy is 500/500  rate: 100.00
+talk.politics.guns - finished! The accuracy is 427/500  rate: 85.40
+talk.politics.mideast - finished! The accuracy is 475/500  rate: 95.00
+talk.politics.misc - finished! The accuracy is 335/500  rate: 67.00
+talk.religion.misc - finished! The accuracy is 308/500  rate: 61.60
